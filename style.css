@@ -31,6 +31,8 @@ body{margin: 0; font-family: Arial, Helvetica, sans-serif;}
     padding: 10px;
     color: #ffffff;
     border-radius: 8px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .btn:active{ border: none; outline: none;}
 .btn:focus {outline: none;}
@@ -56,6 +58,9 @@ body{margin: 0; font-family: Arial, Helvetica, sans-serif;}
         color: #000000;
         font-size: 16px;
         margin-bottom: 8px;
+    }
+    .btn {
+        width: auto;
     }
     .sidebar { width: 100%;}
     .color1 {border-color: #000000;}
